@@ -203,3 +203,32 @@ p {
 .boton-eliminar:focus {
   outline: none;
 }
+
+@media only screen and (max-width: 320px) {
+  #contenedor-productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .producto {
+    width: 80%;
+  }
+
+  .logo {
+    width: 70%;
+  }
+
+  #boton-carrito {
+    width: 30%;
+  }
+
+  #contadorCarrito {
+    font-size: 14pt;
+  }
+
+  .modal-carrito {
+    padding: 20px;
+    min-width: auto;
+    max-height: auto;
+  }
+}
